@@ -1,0 +1,89 @@
+.signin{
+    color: black;
+}
+
+.image{
+    width: 60vw;
+    margin-right: 50px;
+    display: box;
+}
+body{
+    background-color: white;
+
+}
+.one{
+    background-color:orange;
+    height: 12.5%;
+    
+}
+.navtxt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.heading{
+    display:flex;
+    text-align: left;
+    margin-top: 10%;
+    font-weight: bold;
+
+}
+.images{
+    aspect-ratio: 2/2;
+    width: 10vw;
+    
+}
+.row{
+    display:flex;
+    flex-direction: row;
+}
+.card{
+    aspect-ratio: 2/2;
+    width: 25%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.items, best{
+    display: flex;
+    flex-direction: row;
+}
+.card-img-top{
+    aspect-ratio: 3/2;
+}
+.card-title{
+    color:orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card{
+    border: none;
+}
+.popular{
+    aspect-ratio: 3/2;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+h5, p{
+    margin: 0;
+}
+.footer{
+    background-color: black;
+    color:white;
+   
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+}

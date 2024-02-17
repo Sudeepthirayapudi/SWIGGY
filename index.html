@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swiggy</title>
+
+  <!--fav icon-->
+  <link rel="icon" href="https://i.pinimg.com/originals/b3/8a/a1/b38aa1b21050b0e769a97eb751d12829.png" />
+
+  <!--css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--css file-->
+  <link rel="stylesheet" href="./swiggy.css" />
+  <script src="https://kit.fontawesome.com/b20545503c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light one fixed-top">
+    <div class="container-fluid nav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link navtxt active" aria-current="page" href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>&nbsp; Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navtxt active" aria-current="page" href="#">
+              <i class="fa-regular fa-percent"></i>&nbsp; Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navtxt" href="#">
+              <i class="fa-regular fa-life-ring"></i> &nbsp; Help
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navtxt" href="#">
+              <i class="fa-solid fa-cart-shopping"></i>&nbsp;Cart
+            </a>
+          </li>
+        </ul>
+
+        <li class="nav-item">
+          <a class="nav-link navtxt signin" href="#">
+            <i class="fa-regular fa-user"></i> &nbsp;Sign In
+          </a>
+        </li>
+
+
+        <img src="https://i.pinimg.com/originals/b3/8a/a1/b38aa1b21050b0e769a97eb751d12829.png"
+          style="aspect-ratio:1/1;width:5%" class="img" />
+
+
+
+
+      </div>
+    </div>
+  </nav>
+  <!--end of navbar-->
+  <!--home-->
+  <section class="heading">
+    <div class="container">
+      <h4 class="mt-3">What's in your mind?</h4>
+      <div class="row ">
+        <div class="col-lg-12 md-4 sm-2 d-flex justify-content">
+          <div class="images">
+            <img
+              src="https://img.freepik.com/free-photo/close-up-appetizing-ramadan-meal_23-2151182540.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+              class="d-block w-100 h-70 rounded">
+            <p>Biryani</p>
+          </div>&nbsp;
+          <div class="images">
+            <img
+              src="https://img.freepik.com/free-photo/mortar-toasted-pastry_1339-5678.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+              class="d-block w-100">
+            <p>Idly</p>
+          </div>&nbsp;
+          <div class="images">
+            <img
+              src="https://img.freepik.com/free-photo/delicious-indian-dosa-composition_23-2149086051.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+              class="d-block w-100">
+            <p>Dosa</p>
+          </div>&nbsp;
+          <div class="images">
+            <img
+              src="https://img.freepik.com/premium-photo/roti-parata-roti-canai-with-lamb-curry-sauce_121826-2076.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+              class="d-block w-100">
+            <p>Parata</p>
+          </div>&nbsp;
+          <div class="images">
+            <img
+              src="https://img.freepik.com/free-photo/potato-balls_1157-30.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+              class="d-block w-100">
+            <p>Bonda</p>&nbsp;
+          </div>
+          <div class="images">
+            <img
+              src="https://img.freepik.com/free-photo/indian-tasty-roti-composition_23-2149073357.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sphg"
+              class="d-block w-100">
+            <p>Chapati</p>&nbsp;
+          </div>
+          <div class="images">
+            <img
+              src="https://img.freepik.com/free-photo/fresh-orange-juice-glass-dark-background_1150-45560.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+              class="d-block w-100">
+            <p>Juice</p>&nbsp;
+          </div>
+
+          <div class="images">
+            <img
+              src="https://img.freepik.com/free-photo/top-view-delicious-food-croquettes_23-2149202625.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+              class="d-block w-100">
+            <p>Punugu</p>&nbsp;
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!--card-->
+  <section class="items">
+    <div class="container ">
+      <h3 class="mt-5">Top restaurant chains in Vijayawada</h3>
+      <div class="row d-flex justify-content">
+        <div class="card">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/77baefd8a5e319c828b4d7dff7260644"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Samosa Singh</h5>
+            <p><i class="fa-solid fa-star"></i>4.2</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/e938fb5f416cc2c28b4b519cf27b04cc"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Warm Oven and Desserts</h5>
+            <p><i class="fa-solid fa-star"></i>4.5</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/40f193d8b23afb2988489dac1258962f"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Cupcake Bliss</h5>
+            <p><i class="fa-solid fa-star"></i>4.0</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/x5oty2were1z7k79ifez"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Indian Burger</h5>
+            <p><i class="fa-solid fa-star"></i>3.8</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/gcfu92kehomkctekplh5"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Cati Zone Rolls and Wraps</h5>
+            <p><i class="fa-solid fa-star"></i>4.3</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/delicious-ice-cream-with-berries_23-2150735576.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Kwality Wall Frozen Dessaerts</h5>
+            <p><i class="fa-solid fa-star"></i>4.3</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f01666ac73626461d7455d9c24005cd4"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">KFC</h5>
+            <p><i class="fa-solid fa-star"></i>4.3</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/63178e3e64d503a479f2a2048a474552"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Subway</h5>
+            <p><i class="fa-solid fa-star"></i>4.3</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/four-different-cocktail-smoothies-with-milky-cream-top_114579-1097.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Shake & Sip</h5>
+            <p><i class="fa-solid fa-star"></i>4.3</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Dominos</h5>
+            <p><i class="fa-solid fa-star"></i>4.3</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/delicious-pizza-indoors_23-2150873982.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Pizza HUt</h5>
+            <p><i class="fa-solid fa-star"></i>4.3</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://img.freepik.com/free-photo/deep-fried-dim-sum-with-savory-sauce-generated-by-ai_188544-39165.jpg?size=626&ext=jpg&ga=GA1.1.1239161980.1707840439&semt=sph"
+            class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Prasad Pakoda</h5>
+            <p><i class="fa-solid fa-star"></i>4.3</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <hr>
+  <section class="items">
+    <div class="container ">
+      <h3 class="mt-5">Restaurants with online food delivery in Vijayawada</h3>
+      <div class="row d-flex justify-content">
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/gyi1cz6cy3f0tfuux9or"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Beijing Bites</h5>
+            <p>Chinese, Seafood</p>
+            <p>Trendset Mall</p>
+            <p>1.2 km</p>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ld9rruqbadviauyjhnp5"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Red Box</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/6bfb48bb2346de77aeded4f829465ac3"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Bangalore Bhavan</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/p2k9r9zkeqcjhohsgrfu"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Sweet Magic</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f1bc9ddf53de574cdc35ab2f717df234"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Good Morning</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f01666ac73626461d7455d9c24005cd4"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">KFC</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/166b86aeb0e1464718c31f3801072824"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">UTK</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/rlyepihgnuxcs74qjitv"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Silver Dum Biryani</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/ulbrrcoke5fgzqnwwcjn"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">4m Biryani</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/859287be66c3207d0a23758b415ccb71"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">RR Joints</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/uxh321ykb0tqkexpgcgr"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Srivasa Fast Food</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/092e58460657922e098a8afd5db838fe"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Dominos</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/vfdziz06sxmwcrk0hgkw"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Hotel Vadra</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/mulvyrhreayxcbniqigj"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">NankinFusion</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xs9l1ik8gnfnsgsswjvx"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Ghiza Restarent</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/chjo6djrstgwvpghbum7"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Andhra Spices</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/dwyscffanaqe8tdseukd"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Taj Falooda</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/84797f37260054475ca5132d62e4b191"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Fruit me up</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/gqsnvezgouclr1es4szp"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Brew Buzz</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+        <div class="card mt-2">
+          <img
+            src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/5116a385bac0548e06c33c08350fbf11"
+            class="rounded card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">The Belgin Waffle</h5>
+            <P>Chinese</P>
+            <P>Gurunanak colony</P>
+            <P>1.5km</P>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="footer mt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex flex-row justify-content-center">
+          <h2 class="top">For better experience,download the Swiggy app now</h2>
+        </div>
+        <div class="last">
+          <div class="col-12 col-md-3">
+            <h5>Comapny</h5>
+            <p>About us</p>
+            <p>Legal</p>
+            <p>Career</p>
+            <p>Advertise with us</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5>Contact Us</h5>
+            <p>Help & Support</p>
+            <p>Partner</p>
+            <p>Join NOw</p>
+            <p>Ride</p>
+          </div>
+          <div class="col-12 col-md-3">
+            <h5>We deliver to</h5>
+            <p>Bangolore</p>
+            <p>Punjab</p>
+            <p>Vijayawaada</p>
+            <p>Guntur</p>
+            
+          </div>
+          <div class="col-12 col-md-3">
+            <h5>Legal</h5>
+            <p>Privacy policy</p>
+            <p>Cookies</p>
+            <p>Accept Cookies</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
